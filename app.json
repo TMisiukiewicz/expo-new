@@ -12,19 +12,24 @@
       "backgroundColor": "#ffffff"
     },
     "plugins": [
-      ["./plugins/withPrefixedName.js", "custom"]
+      [
+        "./plugins/withPrefixedName.js",
+        "custom"
+      ]
     ],
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.ExpoTest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.ExpoTest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
