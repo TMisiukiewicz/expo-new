@@ -13,8 +13,10 @@
     },
     "plugins": [
       [
-        "./plugins/withPrefixedName.js",
-        "custom"
+        "./plugins/withApiKey.js",
+        {
+          "apiKey": "ApiKeyTest"
+        }
       ]
     ],
     "assetBundlePatterns": [
